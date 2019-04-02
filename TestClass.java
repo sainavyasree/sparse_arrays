@@ -12,9 +12,8 @@ public class TestClass {
         String[] strings = new String[stringsCount];
 
         for (int i = 0; i < stringsCount; i++) {
-            String s=ob.next();
-        strings[i]=s;
-        }
+            strings[i]=ob.next();
+          }
 
         queriesCount = ob.nextInt();
         String[] queries = new String[queriesCount];
